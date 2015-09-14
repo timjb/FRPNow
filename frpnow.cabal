@@ -14,7 +14,7 @@ Category:            Control
 Tested-With:         GHC==7.10.1
 Library
   Build-Depends: base >= 2 && <= 6, mtl >= 1.0, containers, transformers
-  Exposed-modules: Control.FRPNow,Control.FRPNow.Core, Control.FRPNow.Lib, Control.FRPNow.EvStream, Control.FRPNow.Time, Control.FRPNow.BehaviorEnd
+  Exposed-modules: Control.FRPNow.Typesafe,Control.FRPNow,Control.FRPNow.Core, Control.FRPNow.Lib, Control.FRPNow.EvStream, Control.FRPNow.Time, Control.FRPNow.BehaviorEnd, Control.FRPNow.TypesafeCore, Control.FRPNow.TypesafeLib, Control.FRPNow.TypesafeEvStream
   other-modules: Control.FRPNow.Private.PrimEv, Control.FRPNow.Private.Ref
   Extensions:	 RankNTypes, GADTs, CPP, EmptyDataDecls
 
